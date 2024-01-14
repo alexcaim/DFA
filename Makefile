@@ -8,7 +8,7 @@ build: p
 run:
 	./p
 
-p: tema.cpp
+p: dfa.cpp
 	$(CC) -o $@ $^ $(CCFLAGS)
 
 clean:
